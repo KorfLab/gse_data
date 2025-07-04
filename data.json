@@ -1,0 +1,153 @@
+[
+	{
+		"gse": "GSE104500",
+		"file": "GSE104500_Abundance.csv.gz",
+		"type": "csv:cr",
+		"gene": 0,
+		"standard": {
+			"L4": [1, 2, 3]
+		},
+		"notes": [
+			"part of a larger study, no experimental"
+		]
+	},
+	{
+		"gse": "GSE114160",
+		"file": "GSE114160_genes.fpkm_table.txt.gz",
+		"type": "tsv:lf",
+		"gene": 0,
+		"standard": {
+			"A": [5, 6]
+		},
+		"experiment": {
+			"d16_BW": [1, 2],
+			"d16_hns": [3, 4],
+			"N2_hns": [7, 8]
+		},
+		"notes": [
+			"1-2 are daf mutants on normal food",
+			"3-4 are daf mutatns on alternate food",
+			"5-6 are N2 with normal food",
+			"7-8 are N2 with alternate food"
+		]
+	},
+	{
+		"gse": "GSE118400",
+		"file": "GSE118400_nematocida.counts.matrix.txt.gz",
+		"type": "csv:lf",
+		"gene": 0,
+		"standard": {
+			"L4": [1, 4, 11]
+		},
+		"experiment": {
+			"jy3": [2, 5, 12],
+			"jy3-jy9": [3, 6, 13],
+			"n2-dmso": [7, 9, 14],
+			"n2-btz": [8, 10, 15]
+		},
+		"notes": "triplicates of each"
+	},
+	{
+		"gse": "GSE121920",
+		"file": "raw_data/GSE121920_fpkm.txt.gz",
+		"type": "tsv:lf",
+		"gene": 0,
+		"standard": {
+			"A": [7, 8, 9],
+			"L4": [1, 2, 3]
+		},
+		"experiment": {
+			"s105D": [4, 5, 6],
+			"s105L4": [10, 11, 12]
+		},
+		"notes": "alh-6 mutants as L4, dauer, adults"
+	},
+	{
+		"gse": "GSE131070",
+		"file": "GSE131070_GO_NOGO_FPKM.csv.gz",
+		"type": "tsv:lf",
+		"gene": 0,
+		"standard": {
+			"other": [1, 2, 3]
+		},
+		"experiment": {
+			"go": [4, 5, 6],
+			"gonh2": [7, 8, 9]
+		},
+		"notes": "graphene"
+	},
+	{
+		"gse": "GSE196380",
+		"file": "GSE196380_N2_HBR2340_PHX2193_L1_arrest_48h_Raw_counts.xlsx",
+		"type": "xlsx:1",
+		"gene": 0,
+		"standard": {
+			"L1": [1, 2, 3, 4]
+		},
+		"experiment": {
+			"HBR2340": [5, 6, 7, 8],
+			"PHX2193": [9, 10, 11, 12]
+		},
+		"notes": "wt vs. mutant strains in L1 arrested"
+	},
+	{
+		"gse": "GSE197410",
+		"file": "GSE197410_readcount.txt.gz",
+		"type": "tsv:lf",
+		"gene": 0,
+		"standard": {
+			"A": [1, 2, 3]
+		},
+		"experiment": {
+			"AN": [4, 5, 6],
+			"ANi": [7, 8, 9],
+			"ANn": [10, 11, 12]
+		},
+		"notes": "wt vs mutant strains in day 1 adults"
+	},
+	{
+		"gse": "GSE230640",
+		"file": "GSE230640_Normalized_BatchCorrected_counts.txt.gz",
+		"type": "tsv:lf",
+		"gene": 0,
+		"standard": {
+			"A": [2, 6, 10]
+		},
+		"experiment": {
+			"EVP": [3, 7, 11],
+			"AB0": [4, 8, 12],
+			"ABP": [5, 9, 13]
+		},
+		"notes": "day 6 adults, pretty old"
+	},
+	{
+		"gse": "GSE241240",
+		"file": "GSE241240_N2_atp-2_vs_N2_L4440_FC2X.xlsx",
+		"type": "xlsx:",
+		"gene": 0,
+		"standard": {
+			"other": [8]
+		},
+		"experiment": {
+			"atp2": [7]
+		},
+		"notes": "atp-2 RNAi, probably mixed stage"
+	},
+	{
+		"gse": "GSE270810",
+		"file": "GSE270810_gene_count.txt.gz",
+		"type": "tsv:lf",
+		"gene": 0,
+		"standard": {
+			"other": [1, 2, 3]
+		},
+		"experiment": {
+			"GF": [4, 5, 6],
+			"DAF": [7, 8, 9],
+			"DAFGF": [10, 11, 12]
+		},
+		"notes": "single vs double mutant"
+	}
+	
+
+]
